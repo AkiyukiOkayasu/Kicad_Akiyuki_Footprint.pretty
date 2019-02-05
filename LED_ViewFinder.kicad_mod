@@ -1,9 +1,9 @@
-(module LED_ViewFinder (layer F.Cu) (tedit 5C19FBCF)
-  (fp_text reference REF** (at 0 1.8) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+(module LED_ViewFinder (layer F.Cu) (tedit 5C25AA4C)
+  (fp_text reference REF** (at 0 2.4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.1)))
   )
-  (fp_text value LED_ViewFinder (at 0 -1.8) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value LED_ViewFinder (at 0 -2.2 90) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.1)))
   )
-  (pad 1 smd circle (at 0 0) (size 2 2) (layers *.Mask))
+  (pad 1 smd circle (at 0 0) (size 3 3) (layers *.Mask))
 )
