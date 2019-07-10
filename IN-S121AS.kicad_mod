@@ -1,4 +1,4 @@
-(module IN-S121AS (layer F.Cu) (tedit 5C52B0C1)
+(module IN-S121AS (layer F.Cu) (tedit 5D23DBF9)
   (fp_text reference D11 (at -0.7 2.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,9 +13,9 @@
   (pad "" connect roundrect (at 0 0.65) (size 0.9 0.9) (layers F.Cu F.Mask) (roundrect_rratio 0.25))
   (pad 1 smd roundrect (at 1.75 0) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 2 smd roundrect (at -1.75 0) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${AKIYUKIKICAD3D}/IN-S121.wrl
-    (at (xyz 0 0 0))
+  (model ${AKIYUKIKICAD3D}/IN-S121.step
+    (offset (xyz 0 0.5 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 90))
   )
 )

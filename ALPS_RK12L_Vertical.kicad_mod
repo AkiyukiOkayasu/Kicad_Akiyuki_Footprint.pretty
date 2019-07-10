@@ -1,4 +1,4 @@
-(module ALPS_RK12L_Vertical (layer F.Cu) (tedit 5D141803)
+(module ALPS_RK12L_Vertical (layer F.Cu) (tedit 5D23E7B9)
   (fp_text reference REF** (at -4.6 -6.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,4 +20,9 @@
   (pad 4 thru_hole circle (at -3 11) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at -5 11) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 5 11) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask))
+  (model ${AKIYUKIKICAD3D}/RK12L_V25mm.STEP
+    (offset (xyz 0 0 6.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -180 0))
+  )
 )

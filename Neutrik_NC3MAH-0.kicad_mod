@@ -1,4 +1,4 @@
-(module Neutrik_NC3MAH-0 (layer F.Cu) (tedit 5D0B2383)
+(module Neutrik_NC3MAH-0 (layer F.Cu) (tedit 5D23DE5D)
   (fp_text reference REF** (at 0 11.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -15,4 +15,9 @@
   (pad 2 thru_hole circle (at -3.81 5.07) (size 2 2) (drill 1.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 3.8 -3.81) (size 1.8 1.8) (drill 1.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -3.83 -8.89) (size 1.8 1.8) (drill 1.6) (layers *.Cu *.Mask))
+  (model ${AKIYUKIKICAD3D}/NC3MAH.stp
+    (offset (xyz 0 12.75 12.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

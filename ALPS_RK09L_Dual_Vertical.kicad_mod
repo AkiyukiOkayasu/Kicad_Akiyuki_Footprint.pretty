@@ -1,4 +1,4 @@
-(module ALPS_RK09L_Dual_Vertical (layer F.Cu) (tedit 5D141840)
+(module ALPS_RK09L_Dual_Vertical (layer F.Cu) (tedit 5D23E6B8)
   (descr "Potentiometer, vertical, Alps RK09L Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09L/RK09L_list.html")
   (tags "Potentiometer vertical Alps RK09L Single")
   (fp_text reference RV1 (at -5 -6 180) (layer F.SilkS)
@@ -33,9 +33,9 @@
   (pad 4 thru_hole circle (at -2.5 10) (size 1.4 1.4) (drill 1) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 0 10) (size 1.4 1.4) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 2.5 10) (size 1.4 1.4) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK09L_Single_Vertical.wrl
-    (at (xyz 0 0 0))
+  (model ${AKIYUKIKICAD3D}/RK09LDual_V15mm.STEP
+    (offset (xyz 0 0 7.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 -180 0))
   )
 )
