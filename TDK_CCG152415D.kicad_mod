@@ -1,4 +1,4 @@
-(module TDK_CCG152415D (layer F.Cu) (tedit 5D0C691E)
+(module TDK_CCG152415D (layer F.Cu) (tedit 5D312276)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -15,4 +15,9 @@
   (pad 6 thru_hole circle (at 10.16 -10.16) (size 2.8 2.8) (drill 1.5) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 10.16 10.16) (size 2.8 2.8) (drill 1.5) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 10.16 0) (size 2.8 2.8) (drill 1.5) (layers *.Cu *.Mask))
+  (model ${AKIYUKIKICAD3D}/ccg15_outline.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
