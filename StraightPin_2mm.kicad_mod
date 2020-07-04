@@ -1,0 +1,9 @@
+(module StraightPin_2mm (layer F.Cu) (tedit 5F00051F)
+  (fp_text reference REF** (at 0 2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value StraightPin_2mm (at 0 3) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.05 2.05) (drill 2.05) (layers *.Cu *.Paste *.Mask))
+)
