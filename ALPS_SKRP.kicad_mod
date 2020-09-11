@@ -1,4 +1,5 @@
-(module ALPS_SKRP (layer F.Cu) (tedit 5F598801)
+(module ALPS_SKRP (layer F.Cu) (tedit 5F5ADA93)
+  (descr "Tactile switch SMD")
   (tags Switch)
   (attr smd)
   (fp_text reference REF** (at 0 2.4) (layer F.SilkS)
@@ -15,7 +16,7 @@
   (pad 2 smd roundrect (at 2.075 -1.075) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at -2.075 1.075) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at 2.075 1.075) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KICADAKIYUKI3D}/SKRPAB.STEP
+  (model ${AKIYUKIKICAD3D}/SKRPAB.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
