@@ -1,6 +1,6 @@
-(module SeikoEpson_SG310 (layer F.Cu) (tedit 5F742738)
+(module SeikoEpson_SG310 (layer F.Cu) (tedit 5F757521)
   (descr "Crystal oscillator (SPXO)")
-  (solder_paste_ratio -0.1)
+  (solder_paste_ratio -0.03)
   (attr smd)
   (fp_text reference REF** (at 1.27 1.905) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
