@@ -1,6 +1,6 @@
 (footprint "USB_C_Receptacle_Nelton_5077CR-16-SMC2-BK-TR_HandSolder" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62416FB1)
+  (tedit 624170E4)
   (descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
   (tags "usb usb-c 2.0 pd")
   (attr smd)
@@ -44,9 +44,9 @@
   (pad "S1" thru_hole oval (at -4.32 -4.18) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask) (tstamp 69c3dc88-a37e-49ef-ae4d-497d3191ad5b))
   (pad "S1" thru_hole oval (at 4.32 -4.18) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask) (tstamp af5ae63f-ef36-487e-a6b8-831b84890f25))
   (pad "S1" thru_hole oval (at 4.32 0) (size 1 1.8) (drill oval 0.6 1.4) (layers *.Cu *.Mask) (tstamp e783dde5-f762-4528-9b55-9220820b0b1c))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl"
-    (offset (xyz 0 0 0))
+  (model "${AKIYUKIKICAD3D}/CUI_DEVICES_UJC-HP-3-SMT-TR.step"
+    (offset (xyz 0 2.2 1.3))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
