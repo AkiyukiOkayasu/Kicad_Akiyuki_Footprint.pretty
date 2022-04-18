@@ -1,0 +1,17 @@
+(footprint "PanelHole_EurorackM3" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5F6C565C)
+  (descr "Mounting Hole 3.3mm, M3")
+  (tags "mounting hole 3.3mm no annular m3")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -3.175) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5528bcad-2950-4673-90eb-c37e6952c475)
+  )
+  (fp_text value "PanelHole_EurorackM3" (at 0 3.175) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7edc9030-db7b-43ac-a1b3-b87eeacb4c2d)
+  )
+  (fp_circle (center 0 0) (end 2.159 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 08a7c925-7fae-4530-b0c9-120e185cb318))
+  (pad "1" thru_hole circle (at 0 0) (size 4.4 4.4) (drill 3.3) (layers *.Cu *.Mask) (tstamp cbd8faed-e1f8-4406-87c8-58b2c504a5d4))
+)
