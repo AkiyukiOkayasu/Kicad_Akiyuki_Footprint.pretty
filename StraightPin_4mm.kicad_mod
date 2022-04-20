@@ -1,9 +1,14 @@
-(module StraightPin_4mm (layer F.Cu) (tedit 5F0859BF)
-  (fp_text reference REF** (at 0 5) (layer F.SilkS) hide
+(footprint "StraightPin_4mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5F0859BF)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 5) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp eefef1e9-7906-44af-9e46-124080544407)
   )
-  (fp_text value StraightPin_4mm (at 0 3) (layer F.Fab)
+  (fp_text value "StraightPin_4mm" (at 0 3) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 51e1c255-98d1-4cc1-b16c-bc53dc2db65d)
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 4.1 4.1) (drill 4.1) (layers *.Cu *.Paste *.Mask))
+  (pad "" np_thru_hole circle (at 0 0) (size 4.1 4.1) (drill 4.1) (layers F&B.Cu *.Paste *.Mask) (tstamp 3963822c-a359-4076-8de3-43ed6477e067))
 )
