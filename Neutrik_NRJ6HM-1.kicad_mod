@@ -1,4 +1,4 @@
-(footprint "Jack_6.35mm_Neutrik_NRJ6HM-1_Horizontal" (version 20221018) (generator pcbnew)
+(footprint "Neutrik_NRJ6HM-1" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Slim Jacks, 6.35mm (1/4in) stereo jack, metal nose with efficient chassis ground connection, T+R+S normalling contact, https://www.neutrik.com/en/product/nrj6hm-1")
   (tags "neutrik jack slim")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp dda648bb-3ae8-4e4d-b8d9-0f8c88ac174a)
   )
-  (fp_text value "Jack_6.35mm_Neutrik_NRJ6HM-1_Horizontal" (at 6.35 15) (layer "F.Fab")
+  (fp_text value "Neutrik_NRJ6HM-1" (at 6.35 15) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 36c3d1c8-fc3f-412c-af0e-2c2a9516dd51)
   )
@@ -60,7 +60,7 @@
   (pad "T" thru_hole circle (at 0 0) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 5d17d230-ddc4-483e-93fc-66eeaf39052f))
   (pad "TN" thru_hole circle (at 0 11.43) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp d4ff9470-3e81-483a-b756-6d0baa06a851))
   (model ":KICAD:Kicad_Akiyuki_3Dmodel/nrj6hm-1-1.stp"
-    (offset (xyz 17.5 -7.3 0.5))
+    (offset (xyz 17.5 -7.3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
   )
