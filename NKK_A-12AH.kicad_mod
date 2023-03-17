@@ -33,6 +33,8 @@
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp f8828b4d-5af9-46fd-9134-4488d6d8d4af))
   (fp_line (start -0.8 4.9) (end -0.8 3.8)
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp f77260c7-c993-4aff-a131-61c25caaad7c))
+  (fp_line (start -15 0) (end 2 0)
+    (stroke (width 0.1) (type dash_dot)) (layer "Dwgs.User") (tstamp 0d166e12-5a63-4a32-be55-b77a6fecf9ce))
   (fp_rect (start -13.88 -3) (end -9.38 3)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (tstamp 15fe92e9-4551-4082-9d03-58230f6524b6))
   (fp_rect (start -9.38 -4.9) (end 0 4.9)

@@ -22,6 +22,8 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 598ef80f-0859-4dbf-810b-22eaa3e4f8ab))
   (fp_line (start 15.7 5.2) (end 15.7 1.8)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 2ccf4f7b-0721-4fbd-9f9f-ef5a52928302))
+  (fp_line (start -1 0) (end 18 0)
+    (stroke (width 0.1) (type dash_dot)) (layer "Dwgs.User") (tstamp fa37dd32-340c-4f6a-a1e9-6eaf9f19fa56))
   (pad "1" thru_hole roundrect (at 2.5 0) (size 1.5 3) (drill oval 0.8 2.5) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.167) (tstamp 4351bdf6-ce06-47c6-8c7f-c4ca931a9769))
   (pad "2" thru_hole roundrect (at 13.5 5.2 90) (size 1.5 3) (drill oval 0.8 2.5) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.167) (tstamp fbe652d2-f6f3-445b-993a-9738a47255be))
   (pad "3" thru_hole roundrect (at 15.7 0) (size 1.5 3) (drill oval 0.8 2.5) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp ad977fb4-b5f0-4879-a9f7-1820fc8f1b53))
