@@ -1,18 +1,85 @@
-(footprint "PanelHole_ALPS_RK09L" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5F6C565C)
-  (descr "Mounting Hole 3.3mm, M3")
-  (tags "mounting hole 3.3mm no annular m3")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -3.175) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 5528bcad-2950-4673-90eb-c37e6952c475)
-  )
-  (fp_text value "PanelHole_ALPS_RK09L" (at 0 3.175) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 7edc9030-db7b-43ac-a1b3-b87eeacb4c2d)
-  )
-  (fp_circle (center 0 0) (end 2.159 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 08a7c925-7fae-4530-b0c9-120e185cb318))
-  (pad "" np_thru_hole roundrect (at 0 6) (size 2.2 0.9) (drill oval 2.8 0.9) (layers F&B.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 563c12e4-8f8c-446c-a11f-94f5aa93b994))
-  (pad "1" thru_hole circle (at 0 0) (size 10.4 10.4) (drill 9.5) (layers *.Cu *.Mask) (tstamp cbd8faed-e1f8-4406-87c8-58b2c504a5d4))
+(footprint "PanelHole_ALPS_RK09L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.3mm, M3")
+	(tags "mounting hole 3.3mm no annular m3")
+	(property "Reference" "REF**"
+		(at 0 -3.175 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5528bcad-2950-4673-90eb-c37e6952c475")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PanelHole_ALPS_RK09L"
+		(at 0 3.175 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7edc9030-db7b-43ac-a1b3-b87eeacb4c2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71113c75-bf27-4f88-8f4d-26767de1adae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84e60a41-631a-489c-8b59-bf4b3850dbca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 2.159 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "08a7c925-7fae-4530-b0c9-120e185cb318")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 0 6)
+		(size 2.2 0.9)
+		(drill oval 2.8 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "563c12e4-8f8c-446c-a11f-94f5aa93b994")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 10.4 10.4)
+		(drill 9.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cbd8faed-e1f8-4406-87c8-58b2c504a5d4")
+	)
+	(embedded_fonts no)
 )
