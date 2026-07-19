@@ -135,6 +135,17 @@
 		(uuid "5331685f-28f1-41bc-982e-ceecf2fb0728")
 	)
 	(fp_rect
+		(start -3.7 -6.875)
+		(end -1.15 4.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3cf90a66-e3c3-45b0-be72-67e5fda41a91")
+	)
+	(fp_rect
 		(start 6.9 3.35)
 		(end 10.7 2.3)
 		(stroke
