@@ -1,0 +1,174 @@
+(footprint "PLR135T"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Photo-link Fiber Optic Receiver")
+	(tags "TOSLINK")
+	(property "Reference" "REF**"
+		(at 0 5 0)
+		(layer "F.SilkS")
+		(uuid "281ec7a4-7edc-4c91-a780-650d01e7fbae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PLR135T"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "eb8876b9-6b1f-4e74-b86f-58f2b79286c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://akizukidenshi.com/goodsaffix/plr135-t.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10f1028c-95d9-44df-85e0-2429b7851080")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Photolink fiber optic receiver"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f73b2492-4bd9-4593-8dff-5c02435319e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.75 -8.65)
+		(end -5.75 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99d951e7-cd87-400f-a629-d9096f4771d6")
+	)
+	(fp_line
+		(start -5.75 -8.65)
+		(end 5.75 -8.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a8edfd6-1aaa-4b5a-a526-5db2e9397ef9")
+	)
+	(fp_line
+		(start -5.75 2.65)
+		(end 5.75 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8c624f8-3e00-4491-99e4-d7234952f034")
+	)
+	(fp_line
+		(start -4.75 -10.95)
+		(end -4.75 -8.64)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e30701a-2895-41b3-ade9-1b10ff194a08")
+	)
+	(fp_line
+		(start -4.75 -10.95)
+		(end 4.75 -10.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12cbb2b6-7d74-4296-b1dc-87d9e255a1a1")
+	)
+	(fp_line
+		(start 4.75 -10.95)
+		(end 4.75 -8.64)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "965080c1-8b03-4d63-9a33-2784e45ccaaf")
+	)
+	(fp_line
+		(start 5.75 -8.65)
+		(end 5.75 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1e7b3f5-1e09-48ff-9629-e3435beed0fc")
+	)
+	(fp_rect
+		(start -5.75 -8.75)
+		(end 5.75 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c8d483b9-0397-4b7c-942e-1404b6993409")
+	)
+	(pad "" np_thru_hole circle
+		(at -3.81 -3.95)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "871b1257-093a-443d-ae9e-59fff6d336d2")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.81 -3.95)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "1985660d-672e-47ec-8d34-64ffd1a0015a")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a585b3a-0bbf-4162-82b9-faf612e24e0d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e283bb3-637c-4ba0-b36b-52f13d190274")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "083e000f-ec40-4e24-914b-19ab69ca1868")
+	)
+	(embedded_fonts no)
+)
