@@ -1,0 +1,301 @@
+(footprint "LCKELEC_LCK-TF-113H1509-WLG_HandSolder"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LCKELEC LCK-TF-113H1509-WLG microSD push-pull socket, 1.5 mm, 9-pin. Dimensions from datasheet: https://datasheet.lcsc.com/datasheet/pdf/556056c2a8366c77c5c02e9368c9ebf6.pdf?productCode=C50380701")
+	(tags "microSD TF card socket push-pull LCK-TF-113H1509-WLG C50380701")
+	(property "Reference" "REF**"
+		(at 0 -7.6 0)
+		(layer "F.SilkS")
+		(uuid "6113bb66-565d-4698-b1ce-6cbe1ff98a6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LCKELEC_LCK-TF-113H1509-WLG_HandSolder"
+		(at 0 8.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7f19f04-b620-4264-ad17-5127961b101b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/556056c2a8366c77c5c02e9368c9ebf6.pdf?productCode=C50380701"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0a0947a-01f0-4a96-bdde-961172df220a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "MicroSD card connector, push-pull, card detect switch, LCKELEC LCK-TF-113H1509-WLG"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ba99c27-df54-429c-a0fa-0daf980b94e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C50380701"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b181311c-277c-4336-965f-85e95a00bdec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.75 -5.25)
+		(end -5.75 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c40f04e9-5e38-4698-9ece-9463bd34ae9b")
+	)
+	(fp_line
+		(start -5.6 -0.8)
+		(end -5.6 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3448f0a4-2ada-416d-ba9e-db336d1998b0")
+	)
+	(fp_line
+		(start -5.6 -0.8)
+		(end -4.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ea3f6c9-0b70-43e6-a40b-8b113a1d9039")
+	)
+	(fp_line
+		(start -4.4 -6.9)
+		(end 4.4 -6.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ed506ff9-96ca-4be5-b8f2-1e1794b033d5")
+	)
+	(fp_line
+		(start 5.6 -1)
+		(end 5.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cbd7dd87-0bfe-4630-be27-beb35f84f624")
+	)
+	(fp_line
+		(start 5.6 -0.8)
+		(end 4.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8907b24f-c1c9-4a4e-a7ce-cf69399b8ce3")
+	)
+	(fp_line
+		(start 5.75 -5.25)
+		(end 5.75 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "78881112-aac1-4d17-b3b5-02f586b9882c")
+	)
+	(fp_line
+		(start 0 6.85)
+		(end -0.55 7.4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5fc666d6-75df-42d6-9f25-824056dea20b")
+	)
+	(fp_line
+		(start 0 6.85)
+		(end 0.55 7.4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "aa8af649-7712-4de9-b053-7fea11ce86ab")
+	)
+	(fp_line
+		(start 0 8.05)
+		(end 0 6.85)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "302eb393-b46c-4f9e-ab77-89a19f842a88")
+	)
+	(fp_rect
+		(start -5.5 -0.8)
+		(end 5.5 8.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "606dc6fa-5d6f-4a81-ae00-5ffefdef2763")
+	)
+	(fp_rect
+		(start -5.85 -7.05)
+		(end 5.85 8.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d933c9e1-b21d-4507-9d84-8d52355996aa")
+	)
+	(fp_rect
+		(start -5.625 -6.8)
+		(end 5.625 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6ca75c21-8efe-409a-b86e-72137555eb6c")
+	)
+	(fp_text user "CARD INSERTION"
+		(at 0 6.15 0)
+		(layer "Dwgs.User")
+		(uuid "c1a923f1-9cea-404b-a2cb-34e918844afc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at 3.85 0)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "33897970-3548-4526-9497-c7ef7204840f")
+	)
+	(pad "2" smd rect
+		(at 2.75 0)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "045e9517-cf62-4dfd-bd17-84f77470487c")
+	)
+	(pad "3" smd rect
+		(at 1.65 0)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91e7e6ca-8ed0-401a-b6f3-8a03664db58f")
+	)
+	(pad "4" smd rect
+		(at 0.55 0)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "120d3a1e-1626-4817-90c8-d5a923bb996c")
+	)
+	(pad "5" smd rect
+		(at -0.55 0)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "947fc8ad-d801-4c94-aee4-9ce44bb24ffa")
+	)
+	(pad "6" smd rect
+		(at -1.65 0)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0675cfab-75bf-48a7-9a69-f35177dbf112")
+	)
+	(pad "7" smd rect
+		(at -2.75 0)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "111eaae2-1851-4886-ac6f-b57dd60bef67")
+	)
+	(pad "8" smd rect
+		(at -3.5 0)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b4022dfa-c288-49b5-b736-ed50d14d211e")
+	)
+	(pad "9" smd rect
+		(at -4.2 0)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8a1518d3-6876-46c1-a69e-2b978401979a")
+	)
+	(pad "SH" smd rect
+		(at -5.4 -6.2)
+		(size 1.55 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ce60026-d574-4d5f-83eb-db2beb74e16e")
+	)
+	(pad "SH" smd rect
+		(at -5.4 -1.75)
+		(size 1.55 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84e8e04c-1703-4715-a7a5-d067cab26692")
+	)
+	(pad "SH" smd rect
+		(at 5.4 -6.2)
+		(size 1.55 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a4931d59-98d0-41ce-add4-b2017ff66c06")
+	)
+	(pad "SH" smd rect
+		(at 5.4 -1.75)
+		(size 1.55 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "747d4345-4826-47b7-aa4b-ff8c8898a253")
+	)
+	(embedded_fonts no)
+	(model "${AKIYUKIKICAD3D}/TE_1932739-1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

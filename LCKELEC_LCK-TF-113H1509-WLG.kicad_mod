@@ -1,0 +1,242 @@
+(footprint "LCKELEC_LCK-TF-113H1509-WLG"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LCKELEC LCK-TF-113H1509-WLG microSD push-pull socket, 1.5 mm, 9-pin. Dimensions from datasheet: https://datasheet.lcsc.com/datasheet/pdf/556056c2a8366c77c5c02e9368c9ebf6.pdf?productCode=C50380701")
+	(tags "microSD TF card socket push-pull LCK-TF-113H1509-WLG C50380701")
+	(property "Reference" "REF**"
+		(at 0 -7.6 0)
+		(layer "F.SilkS")
+		(uuid "9924e223-d4e1-4346-9955-f8072cf53a92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LCKELEC_LCK-TF-113H1509-WLG"
+		(at 0 8.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a03bc982-9420-4c7c-bd8a-61c8595d7933")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/556056c2a8366c77c5c02e9368c9ebf6.pdf?productCode=C50380701"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "793defa0-8de2-4495-b223-53a18572e323")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "MicroSD card connector, push-pull, card detect switch, LCKELEC LCK-TF-113H1509-WLG"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12df06d9-66f9-4aee-937b-0ba1c32a75b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C50380701"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b38ceec-ce33-4f74-880c-0c37cfce8ac0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -5.75 -6.95)
+		(end 5.75 -0.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a375cd2b-b9f4-42dd-9318-1a0cd1da4965")
+	)
+	(fp_line
+		(start 0 6.85)
+		(end -0.55 7.4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b964ca2f-ac15-4ade-b7ff-9c1a9ea6d3f5")
+	)
+	(fp_line
+		(start 0 6.85)
+		(end 0.55 7.4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "758b1981-a58c-4790-a547-806389fd6bb3")
+	)
+	(fp_line
+		(start 0 8.05)
+		(end 0 6.85)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7097f756-c6c9-4a4a-a5df-8713f6d7b698")
+	)
+	(fp_rect
+		(start -5.5 -0.8)
+		(end 5.5 8.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4b5e0c71-0d16-411d-a1dd-7ef8494ef336")
+	)
+	(fp_rect
+		(start -5.85 -7.05)
+		(end 5.85 8.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "77e54eee-7c3d-4512-8d94-f4d61946f510")
+	)
+	(fp_rect
+		(start -5.625 -6.8)
+		(end 5.625 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cb459415-dea1-4c22-9f53-4df0b6551aa9")
+	)
+	(fp_text user "CARD INSERTION"
+		(at 0 6.15 0)
+		(layer "Dwgs.User")
+		(uuid "29df443c-c0da-4603-b294-179a90d688c4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at 3.85 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f790a808-3123-4f70-a0aa-2bad0d7afd84")
+	)
+	(pad "2" smd rect
+		(at 2.75 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69bb8f56-988c-495d-bd8b-36b3121655f4")
+	)
+	(pad "3" smd rect
+		(at 1.65 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a5284fcf-dbe0-47d5-87bc-a55594fa3e9b")
+	)
+	(pad "4" smd rect
+		(at 0.55 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d797ec12-9e33-43d3-9d33-5b21c3b7c456")
+	)
+	(pad "5" smd rect
+		(at -0.55 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "01738c4a-fe07-48bd-b042-7cb2739ee32a")
+	)
+	(pad "6" smd rect
+		(at -1.65 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "93db4fee-8943-439b-a920-abd4e178f9e3")
+	)
+	(pad "7" smd rect
+		(at -2.75 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "772a998b-53a7-40a0-9602-77f56bdd6ec8")
+	)
+	(pad "8" smd rect
+		(at -3.5 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7f892641-c576-4e11-96a5-308be76800ea")
+	)
+	(pad "9" smd rect
+		(at -4.2 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa279d25-eb7b-4742-ac37-0034ea1b5012")
+	)
+	(pad "SH" smd rect
+		(at -5.1 -6.2)
+		(size 0.95 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0b0aa167-0d01-4ea5-93b0-a00d1de94661")
+	)
+	(pad "SH" smd rect
+		(at -5.1 -1.75)
+		(size 0.95 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "08f0d6e0-cfd2-498c-9d75-857277ac7172")
+	)
+	(pad "SH" smd rect
+		(at 5.1 -6.2)
+		(size 0.95 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3a847b82-3be9-41d3-9aed-3df7af6d4bbd")
+	)
+	(pad "SH" smd rect
+		(at 5.1 -1.75)
+		(size 0.95 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0bdbd192-c5e3-48e4-8517-5e694d0d161c")
+	)
+	(embedded_fonts no)
+	(model "${AKIYUKIKICAD3D}/TE_1932739-1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

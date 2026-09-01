@@ -1,0 +1,224 @@
+(footprint "DLR2160"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Aixin DLR2160 optical receiver module; pin 1=Vout, pin 2=GND, pin 3=Vcc. Mechanical dimensions from datasheet.")
+	(tags "DLR2160 optical receiver TOSLINK SPDIF")
+	(property "Reference" "REF**"
+		(at 0 14.6 0)
+		(layer "F.SilkS")
+		(uuid "8c7c4982-ac62-4f52-beef-ceb62acb381d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DLR2160"
+		(at 0 7.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc8b2569-c245-4bc2-a3db-9b8d4e0ddbb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://device.report/m/1d12a6281224d71e83097d8a292c6957fe46f642059a8efaefba75cba65359ea.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9560a8a-5a69-4ca2-9b6f-c182c76bcbb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "DLR2160 25 Mbps optical receiver module, 2.7-5.5 V; pin 1 Vout, pin 2 GND, pin 3 Vcc"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b3bb40a-0b7d-495a-b75d-8ab92ad600be")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.85 -2.5)
+		(end -4.85 11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "980b908a-5c89-42b3-bd9d-6fd1e040e02f")
+	)
+	(fp_line
+		(start -4.85 -2.5)
+		(end 4.85 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2d71aa2-da2f-4de5-90c3-3e3c16d0df59")
+	)
+	(fp_line
+		(start -4.85 11)
+		(end 4.85 11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6bc0ab8-d89f-4eb8-aa3c-1180d7107549")
+	)
+	(fp_line
+		(start -4.8 8.63)
+		(end -4.4 8.63)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c5a9cc9-72ee-445f-9ba5-9860632d7ad1")
+	)
+	(fp_line
+		(start 4.4 8.63)
+		(end 4.8 8.63)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47011f2e-8cdb-4fed-9f16-50b3edd9b2b9")
+	)
+	(fp_line
+		(start 4.85 11)
+		(end 4.85 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b50116e-885a-41ba-ae2e-b7ad72a79c55")
+	)
+	(fp_rect
+		(start -5.1 -2.8)
+		(end 5.1 11.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c831e261-0976-46db-afc1-7e22b65688c2")
+	)
+	(fp_line
+		(start -4.85 8.63)
+		(end 4.85 8.63)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47ae8838-5b80-4b80-8303-1dc7241ba712")
+	)
+	(fp_rect
+		(start -4.85 -2.5)
+		(end 4.85 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a932e7a7-c7cb-4c83-a765-3bbf6132191c")
+	)
+	(fp_text user "VCC   GND   VOUT"
+		(at 0 -1.8 0)
+		(layer "F.Fab")
+		(uuid "ac07d1af-2071-4e54-8d51-e4c4d84a78f6")
+		(effects
+			(font
+				(size 0.55 0.55)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.8 5.1)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "72821db7-cc29-4936-ae20-48cc5cd73200")
+	)
+	(pad "" thru_hole circle
+		(at -2.54 2.6)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d41ef103-58aa-4e47-ab04-011c8891a1df")
+	)
+	(pad "" thru_hole circle
+		(at 2.54 2.6)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60d4c861-2fa3-4ad2-ac9a-987a8bd0997e")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.8 5.1)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "58b51e78-e98c-4c37-bf91-41a3ba683dec")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f640bc5d-a478-4a6a-917f-c69294c3da36")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19ed3157-75ea-4c19-a851-0ea9ac7d4f31")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f61fd275-dca7-412f-86dc-31a32b0b5627")
+	)
+	(embedded_fonts no)
+	(model "${AKIYUKIKICAD3D}/DLR2160.stp"
+		(offset
+			(xyz 0 -11 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
