@@ -1,0 +1,181 @@
+(footprint "PCB_Interlock_Slot_NPTH_2.7x3.2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PCB to PCB 90° interconnect slot")
+	(tags "interconnect")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "73c5fa0f-eaa2-48cc-9843-8028408b67ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "名称未設定"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c51f6f28-eda6-4e4d-ad40-1f16049f00b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b9285fd-e9c3-4426-9a9a-ae8f6949b498")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PCB to PCB 90° interconnect slot"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aa166ef-33cb-4e88-9a41-f61642ec2b08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.7 -1.7)
+		(end 1.7 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "364bedee-d746-4005-9dfb-d9c3eb4452bb")
+	)
+	(fp_rect
+		(start -0.8 -1)
+		(end 0.8 1)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "97b38aa1-b16a-4ec7-83f0-0b5baed4c860")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "73388282-6d9a-4578-a3da-94cba9b01848")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "310585c0-496e-4cc4-bedb-8bb0f05b15eb")
+		(pts
+			(xy 0.8 1) (xy 0.8 -1)
+		)
+		(height 3)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2"
+			(at 2.65 0 90)
+			(layer "User.1")
+			(uuid "310585c0-496e-4cc4-bedb-8bb0f05b15eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "b4fda11a-08f8-4b12-b025-31f2fadce568")
+		(pts
+			(xy -0.8 1) (xy 0.8 1)
+		)
+		(height 2.8)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "1.6"
+			(at 0 2.65 0)
+			(layer "User.1")
+			(uuid "b4fda11a-08f8-4b12-b025-31f2fadce568")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(pad "" np_thru_hole roundrect
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill oval 2.7 3.2)
+		(layers "*.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "97279367-52ea-4f38-873e-43f933f9d157")
+	)
+	(embedded_fonts no)
+)
