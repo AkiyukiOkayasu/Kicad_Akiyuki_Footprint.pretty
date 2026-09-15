@@ -1,7 +1,7 @@
 (footprint "LED_PCB_Peephole"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "LED peephole for PCB")
 	(tags "panelhole led")
@@ -10,7 +10,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b1912e6e-ef2e-44be-b6ec-98c74bb227e1")
+		(uuid "eda8dd2f-86a5-4434-930d-40a4110b66e3")
 		(effects
 			(font
 				(size 1 1)
@@ -22,7 +22,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "bcfdadc4-35c0-4892-8789-889dda8cc2f5")
+		(uuid "b7c337c6-9374-42d9-b610-10428e719915")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5d7c159c-5f3e-413e-b9cd-8063aacf5714")
+		(uuid "9f23e6ed-78ed-44e0-9fb0-a932d3fe1ba2")
 		(effects
 			(font
 				(size 1 1)
@@ -48,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "883a94e7-f4e7-4d18-8696-3553d7ed1a1d")
+		(uuid "20b4e54e-ab91-4e8e-b184-886ae8153f67")
 		(effects
 			(font
 				(size 1 1)
@@ -57,6 +57,7 @@
 		)
 	)
 	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 2 0)
@@ -66,7 +67,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "8afca2f3-2fe3-465f-8a1d-3f0b98a4f6ba")
+		(uuid "b2aec63e-66fd-480b-851e-029982ec626e")
 	)
 	(fp_circle
 		(center 0 0)
@@ -77,13 +78,13 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "c0703e2b-4baf-4a27-bcf5-f5ac76cce029")
+		(uuid "ce02ffab-a420-432c-af2f-2a0f9494e04d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b3d5fbfc-9552-456c-92ec-4f231fd7d507")
+		(uuid "2457d261-3353-49c2-afc4-fcf99cc77eb0")
 		(effects
 			(font
 				(size 1 1)
@@ -108,7 +109,7 @@
 				(fill no)
 			)
 		)
-		(uuid "e29220f8-100d-49a3-afa8-3844550220fb")
+		(uuid "7636173c-1cc3-4724-bf99-814afda1ddcd")
 	)
 	(pad "1" smd custom
 		(at 0.015 -1.801058 90)
@@ -127,7 +128,7 @@
 				(fill no)
 			)
 		)
-		(uuid "48ea2f95-ce9a-46d6-899d-82514221f423")
+		(uuid "8cad315c-e56a-4a11-a5f1-7585dbec3b86")
 	)
 	(embedded_fonts no)
 )
