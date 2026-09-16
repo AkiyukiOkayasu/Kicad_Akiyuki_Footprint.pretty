@@ -10,7 +10,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "eda8dd2f-86a5-4434-930d-40a4110b66e3")
+		(uuid "668966dc-2f48-4860-b5a5-4e06968be095")
 		(effects
 			(font
 				(size 1 1)
@@ -22,7 +22,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b7c337c6-9374-42d9-b610-10428e719915")
+		(uuid "7d259e38-71d6-4c97-b739-5aac6956ca88")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9f23e6ed-78ed-44e0-9fb0-a932d3fe1ba2")
+		(uuid "f70a2480-ed31-4e10-bbe7-4c0ebd54456c")
 		(effects
 			(font
 				(size 1 1)
@@ -48,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "20b4e54e-ab91-4e8e-b184-886ae8153f67")
+		(uuid "995bf135-089e-4e1c-a9da-65b00e99138f")
 		(effects
 			(font
 				(size 1 1)
@@ -67,7 +67,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "b2aec63e-66fd-480b-851e-029982ec626e")
+		(uuid "e64cd41c-001f-4a8c-a671-16d83b9f8f0e")
 	)
 	(fp_circle
 		(center 0 0)
@@ -78,13 +78,24 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "ce02ffab-a420-432c-af2f-2a0f9494e04d")
+		(uuid "77218035-0084-4f84-8355-0fcc46f95a66")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "03e6ff13-0fdc-4505-8682-5318d048cd29")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "2457d261-3353-49c2-afc4-fcf99cc77eb0")
+		(uuid "26cafaae-13c2-42fd-b46e-3fbf8f8d8a75")
 		(effects
 			(font
 				(size 1 1)
@@ -96,6 +107,7 @@
 		(at 0 -1.8 90)
 		(size 0.4 0.4)
 		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -109,7 +121,7 @@
 				(fill no)
 			)
 		)
-		(uuid "7636173c-1cc3-4724-bf99-814afda1ddcd")
+		(uuid "aacce3f9-a52f-4db8-ade8-62b9c4f4e303")
 	)
 	(pad "1" smd custom
 		(at 0.015 -1.801058 90)
@@ -128,7 +140,41 @@
 				(fill no)
 			)
 		)
-		(uuid "8cad315c-e56a-4a11-a5f1-7585dbec3b86")
+		(uuid "2d0c3f51-5da1-418f-a792-e632b28ff09c")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "User.4")
+		(uuid "3903a1cb-b83c-4c86-b77b-35b21b3f7030")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -1.6 0)
+					(mid 1.6 0)
+					(end -1.6 0)
+				)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
