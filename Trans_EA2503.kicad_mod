@@ -1,0 +1,157 @@
+(footprint "Trans_EA2503"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "API 2503 style Audio Output Transformer")
+	(tags "API 2503 style Audio Output Transformer")
+	(property "Reference" "TR1"
+		(at -21.5 18.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3e01b1b5-3444-4886-beb1-69656a6b2341")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Trans_EA2503"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8aba7b26-8a44-406a-8674-a29b1f6cdd33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.capi-gear.com/catalog/images/gallery/2503/2503-specs.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2080445-8821-4d54-a662-47eff6d99db5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "API 2503 style Audio Output Transformer"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dbcabca-1396-4c1b-9e6d-1c23d2c0cc09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -24 -20)
+		(end 24 20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e82e0bae-46ff-4dca-ae69-f3fa6d330e23")
+	)
+	(fp_rect
+		(start -15.494 -11.811)
+		(end 15.494 11.811)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "688ab99c-84b4-4b1a-968b-a86224ed53d4")
+	)
+	(fp_rect
+		(start -24.5 -20.5)
+		(end 24.5 20.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9c81e30b-574b-4aee-9c48-766aed88b7a2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "daa8a551-4cd4-479d-b3e5-5ec0b7116945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -15.875)
+		(size 4.5 4.5)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c64bd3f9-0f0e-40eb-a3ca-a2fb6144bbfd")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 4.5 4.5)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 7 7)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 15.875)
+		(size 4.5 4.5)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4cfdbd66-bc79-40b8-aa53-71fdfac27b87")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 4.5 4.5)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 7 7)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_LOCAL_3DMODEL_DIR}/Trans_EA2503.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
