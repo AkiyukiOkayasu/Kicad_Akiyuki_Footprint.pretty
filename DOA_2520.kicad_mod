@@ -4,12 +4,36 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "API stye Discrete Opamp 2520")
+	(property "Reference" "U1"
+		(at 21 7.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1888a9eb-180e-4331-b2b4-0fbc18e51894")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DOA"
+		(at 5.4 -4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0fb4c64f-3417-48a3-874b-616f61b75c0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cb3fde39-e245-46d6-9e1b-68185ea1c5c3")
+		(uuid "058a46b5-b9f3-4020-8c32-9d3a5f60d8b9")
 		(effects
 			(font
 				(size 1 1)
@@ -22,31 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "adebadf2-7a8a-4b96-a736-5c2d45ad2623")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "U1"
-		(at 21 7.6 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "ac5278b4-7ed9-4237-8b67-7c22cf47eb9d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Value" "DOA"
-		(at 5.4 -4.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "7389a640-cf93-4b6b-8987-517398ea4e3e")
+		(uuid "03f9b351-9b34-4dc2-8fdd-87072fd5c2e2")
 		(effects
 			(font
 				(size 1 1)
@@ -59,32 +59,32 @@
 	(attr smd exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -10.125 -19.725)
-		(end 18.325 8.725)
+		(start -11.3 -20.6)
+		(end 19.2 9.8)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "6d8fc2f4-e5b6-4c18-a064-f243f5cc1295")
+		(uuid "097226f4-5a6d-4699-a294-a83e0d3e9fc2")
 	)
 	(fp_rect
-		(start -10.5 -20)
-		(end 18.5 9)
+		(start -11.5 -21)
+		(end 19.5 10)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f918a65c-c6e5-43c0-971e-2e17fee3daf3")
+		(uuid "7046ccd2-73a4-4611-9b94-118ff1a50016")
 	)
 	(fp_text user "+V"
 		(at -4 -15 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "1f900bbd-9a86-4497-b075-5edb500a0538")
+		(uuid "c397f569-2568-4079-afbb-a3b8d680ecb9")
 		(effects
 			(font
 				(size 1 1)
@@ -97,7 +97,7 @@
 		(at -4 -9.94 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8468b9ec-66a4-4ed4-93ee-d0b1a9a3ab0f")
+		(uuid "988dbbe6-cfa0-4d82-9f8a-32bc4b989f1b")
 		(effects
 			(font
 				(size 1 1)
@@ -110,7 +110,7 @@
 		(at -4 -4.68 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "cf938a62-2f7c-45e7-ba18-42f600cf4283")
+		(uuid "066bf45f-391c-4339-a7c3-1067a1e748fd")
 		(effects
 			(font
 				(size 1 1)
@@ -123,7 +123,7 @@
 		(at -4 0.28 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "2f30e5a5-8d12-4bea-a8e0-d561a3060f97")
+		(uuid "d954b26a-0fcb-4d7d-bed0-67446cada8bc")
 		(effects
 			(font
 				(size 1 1)
@@ -136,7 +136,7 @@
 		(at 9.3 -2.52 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b5b3fb01-f783-4dc3-832d-910ac0c873f6")
+		(uuid "fa86d337-8bfa-4f3c-a231-ac0b5d930aa9")
 		(effects
 			(font
 				(size 1 1)
@@ -149,7 +149,7 @@
 		(at 9.4 -7.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b87e7df2-765c-4ed4-bcb4-47ae1d21c15b")
+		(uuid "06976c57-b668-4715-8dc3-192b762346f2")
 		(effects
 			(font
 				(size 1 1)
@@ -162,7 +162,7 @@
 		(at 3.7 -6.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5f8b8593-821d-4770-af9b-18a29170c836")
+		(uuid "3be81c5b-ddb4-454f-9df5-1b0f05b5800a")
 		(effects
 			(font
 				(size 1 1)
@@ -187,7 +187,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "90682b25-63c3-449b-a123-05b228a76ef2")
+		(uuid "b7354a92-02ca-4128-ae6f-74e7972f9919")
 	)
 	(pad "2" thru_hole circle
 		(at 14.26 -8.04 180)
@@ -206,7 +206,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "b107df26-85c9-43d4-8b6a-33a5d2630507")
+		(uuid "5977bb34-5f7a-4e78-9ae3-c4e3e15966df")
 	)
 	(pad "3" thru_hole circle
 		(at -6.06 -15.66 180)
@@ -225,7 +225,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "701c135a-6423-49f7-820e-024af39ca4b7")
+		(uuid "1f63d98d-413e-4e79-a34b-c058761993a3")
 	)
 	(pad "4" thru_hole circle
 		(at -6.06 -10.58 180)
@@ -244,7 +244,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "6accdee2-123d-4cde-a72a-19dbbb462f91")
+		(uuid "05225038-37b6-49e5-82b9-3779df8283b1")
 	)
 	(pad "5" thru_hole circle
 		(at -6.06 -5.5 180)
@@ -263,7 +263,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "e6fca867-ab50-41a5-ab21-337bd8fcd5a8")
+		(uuid "aee56f0d-e829-42a4-99db-06ec263ea07b")
 	)
 	(pad "6" thru_hole circle
 		(at -6.06 -0.42 180)
@@ -282,18 +282,18 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "36b2e125-d6ac-4b40-bea7-73481b8b8e5b")
+		(uuid "d7875daf-8dfa-4e00-bbe2-9891a2c46659")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_LOCAL_3DMODEL_DIR}/Discrete_OP_Amp.stp"
+	(model "${AKIYUKIKICAD3D}/DOA_2520.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 4 5.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -180)
 		)
 	)
 )
