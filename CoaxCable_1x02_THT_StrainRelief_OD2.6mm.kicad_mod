@@ -1,0 +1,139 @@
+(footprint "CoaxCable_1x02_THT_StrainRelief_OD2.6mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "Coaxcable solder")
+	(property "Reference" "REF**"
+		(at 0.0816 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "042e5755-c9f7-47d9-b3fa-263da14e0fdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CoaxCable_1x02_THT_StrainRelief_OD2.6mm"
+		(at 0.0816 11.2076 0)
+		(layer "F.Fab")
+		(uuid "931fe769-fd29-4b19-9f34-0ed4f34d00e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fd295bf-f9e7-461f-a90a-6c4b60502e89")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3db096eb-4a25-4629-a919-d61fdb44ee82")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "connector/wire"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a5e7ae26-3c01-4709-ad5f-bbf1096d1203")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5 2)
+		(end -1.5 10.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c033b38e-07f6-44b7-a8bc-1a8482fd23d6")
+	)
+	(fp_line
+		(start 1.5 2)
+		(end 1.5 10.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de7d7868-db9f-4b92-886e-ea4cca8c0299")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0816 13 180)
+		(layer "F.Fab")
+		(uuid "61afbf7d-e8ec-4e1e-9e9c-052a8b1902f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.5 8)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "28209364-0c8d-431f-8129-9a76fed8a533")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.5 8)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d39198e2-5db8-45e2-bc6e-1d7a0b402c09")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.5 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.147059)
+		(uuid "89621722-989a-4303-8841-880362b40624")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72605407-bc2a-4767-ab4b-a41388f175da")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm_Relief.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
